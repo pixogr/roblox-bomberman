@@ -1,0 +1,28 @@
+# Secrets / credentials — must never be committed
+.env
+.env.*
+*.key
+*.pem
+id_rsa*
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.secret
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives / Roblox place binaries / build artifacts
+*.zip
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Local tooling state
+.claude/
+.agents/
+.vscode/
